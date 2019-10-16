@@ -1,0 +1,130 @@
+:root {
+	--screen-width: calc(screen.width + 5%);    /*calc(100px + 200px); screen.width + screen.width);*/
+}
+
+body {
+	font-family: Arial, Verdana, Helvetica; /* Name must be in quotes if contains space */
+	margin: 0;
+	background-color: #F6F5F5; 
+
+}
+h1  {
+	
+	font-size: 25pt;
+	color: #FE0101;
+	margin-top: 0;
+	margin-bottom: 5px;
+	text-decoration: underline;
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: -2px 1px #837D7D;
+}
+scan {
+	font-size: 20pt;
+	font-weight: bold;	
+}
+
+#boxHeadline {
+	display: inline-block;
+	width: 45%;
+	height: 400px;
+	margin: 5px;
+	vertical-align:top;
+	border-left-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+}
+#boxUpdate {
+	display: inline-block;
+	width: 45%;
+	height: 400px;
+	margin: 5px;
+	vertical-align:top;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: solid;
+} 
+@media screen and (max-width: 700px) {
+  .boxHeadline {
+    width: 100%;
+  }
+  .boxUpdate {
+    width: 100%;
+  }
+}
+
+
+
+
+h2 {
+	font-size: 20pt;
+	/*color: #FE0101;*/
+	margin-top: 0;
+	margin-bottom: 5px;
+	/*text-decoration: underline;*/
+	font-style: italic;
+	font-weight: bold;
+	text-shadow: -3px 1px #527BAB;
+}
+   
+div {
+	margin-left: 20px;
+	margin-top: 10px;
+    
+}
+
+a {
+	color: #2C6AB2; /*#637283 #2C6AB2*/
+}
+
+.boxLong {
+	display: inline-block;
+	width: 200px;
+	height: 2200px;
+	margin: 10px;
+	vertical-align:top;
+	
+}
+.boxShort {
+	display: inline-block;
+	width: 200px;
+	height: 400px;
+	margin: 10px;
+	vertical-align:top;
+}
+.boxWide {
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	margin: 10px;
+	vertical-align:top;
+}
+
+		    								/* This is an id */
+#trHeader {
+	text-decoration: underline;
+	color: #990000;
+}
+
+
+/*screen.width 1200px #EDC0C0 #D5CECE #D7D9FE #EADBFB    #BCBBBB*/
+#topBorder {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100px;
+	background: -webkit-linear-gradient(left,#F6F5F5, #CECCCC); 
+	background: -o-linear-gradient(right, #F6F5F5,#CECCCC); 
+	background: -moz-linear-gradient(right, #F6F5F5,#CECCCC); 
+	background: linear-gradient(to right, #F6F5F5,#CECCCC); 
+	background-color: #F6F5F5; 
+	/*border-width: 1px;*/
+	/*border-style: solid;
+	border-top-style: none;
+	border-left-style: none;
+	border-right-style: none;*/
+	border-bottom-style: solid;
+  
+	/*background:#CECCCC;*/
+}
+
